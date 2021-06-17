@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Template Main CSS File -->
+<link href="assets/css/style.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Contact - ALABEL ACHIMTALAB</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Sailor - v4.1.0
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">ALABEL ACHIMTALAB</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+         
+          <li class="dropdown"><a href="#"><span>acerca de </span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html">INSTALACIONES</a></li>
+              <li><a href="team.html">NOSOTROS</a></li>
+              
+            </li>
+          </ul>
+          <li><a href="services.html">SERVICIOS</a></li>
+          <li><a href="portfolio.html">GALERIA</a></li>
+          <li><a href="pricing.html">PRECIOS</a></li>
+          <li><a href="blog.html">HABITACIONES</a></li>
+         
+          <li><a href="contact.html">CONTACTO</a></li>
+          <li><a href="reserva.html" class="getstarted">reservar</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Reserva</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>reserva                                                                                                                                                                               </li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs --><div class="col-lg-8 mt-5 mt-lg-0">
+      <BR>
+      <body> 
+      
+      <form action="mailto:abbyvillalobosespericueta@gmail.com " method="post" enctype="text/plain">
+        <div class="elem-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="huesped_nombre" placeholder="abigail villalobos" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email"> E-mail</label>
+          <input type="email" id="email" name="huesped_email" placeholder="example@email.com" required>
+        </div>
+        <div class="elem-group">
+          <label for="telefono">Telefono</label>
+          <input type="tel" id="phone" name="huesped_telefono" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <hr>
+        <div class="elem-group inlined">
+          <label for="adultos">Adultos</label>
+          <input type="number" id="total_adulto" name="total_adultos" placeholder="2" min="1" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="niños">niños</label>
+          <input type="number" id="total_niños" name="total_niños" placeholder="2" min="0" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="checkin-date">Check-in </label>
+          <input type="date" id="checkin_fecha" name="checkin" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="checkout-date">Check-out </label>
+          <input type="date" id="checkout_fecha" name="checkout" required>
+        </div>
+        <div class="elem-group">
+          <label for="tipo_cuarto">Tipo de cuarto</label>
+          <select id="tipo_cuarto" name="tipo_cuarto" required>
+              <option value="">Elige uno de la  Lista</option>
+              <option value="connecting">Habitacion Estandar</option>
+              <option value="adjoining">NATURA ROOM</option>
+              <option value="adjacent">ALL IN</option>
+          </select>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for=" mensaje_huesped">algo en especial?</label>
+          <textarea id=" mensaje_huesped" name=" mensaje_huesped" placeholder=" dudas o pedidos." ></textarea>
+        </div>
+        <button type="submit">Reserva</button>
+      </form>
+     <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>ALABEL ACHIMTALAB</h3>
+              <p>
+                
+                Lateral Avenida Miguel Hidalgo y Costilla 426,<br> Centro, 79852 <br>El Naranjo, S.L.P.<br><br>
+                <strong>telefono:</strong> +56 4448141586<br>
+                <strong>Email:</strong> ALABEL_ACHIMTALAB@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">acerca de</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terminos de servicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">politicas de privacidad</a></li>
+            </ul>
+          </div>
+          <script type="text/javascript" src="https://form.jotform.com/jsform/211668155143858"></script>
+         
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4> noticias y promociones</h4>
+            <p>suscribete para recibir noticias y promociones </p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribirse">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>ALABEL ACHIMTALAB</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+       
+          Designed by <a href="https://bootstrapmade.com/">Abigail Villalobos  </a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+  
+  </footer><!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+        <!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          facebook: "100069057386729", // Facebook page ID
+          whatsapp: "4445986759", // WhatsApp number
+          call_to_action: "Envíanos un mensaje", // Call to action
+          button_color: "#FF6550", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "facebook,whatsapp", // Order of buttons
+          pre_filled_message: "Hola,gracias por contactarnos", // WhatsApp pre-filled message
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
+
+      </div>
+
+    </div>
+
+  </div>
+</body> 
+</html>
